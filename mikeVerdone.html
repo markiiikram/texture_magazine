@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ⓣⓔⓧⓣⓤⓡⓔ ⓜⓐⓖⓐⓩⓘⓝⓔ - Mike Verdone</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="styles/texturesidebar.css" media="screen, print"/>
+</head>
+<body>
+
+<div id="left-sidebar">
+
+<img src="images/mike/mikesidebar.jpg" width="200px" height="450px" alt="Mike Verdone" title="Mike Verdone" style="float:left;margin-left:25px;" />
+
+<p style="margin-bottom:0;"><a href="index.html">This Week</a></p>
+<p style="margin-top:0;margin-bottom:0;"><a href="index2.html">Archives</a></p>
+<p style="margin-top:0;"><a href="allContributors.html">All Contributors</a></p>
+</div>
+
+<div id="content">
+
+<h2>The Texpert</h2>
+<h3>October 2010: On Pianoteq</h3>
+<h3>by <a href="http://mike.verdone.ca/" title="External link to Mike Verdone's Website">Mike Verdone</a></h3>
+
+<img src="images/mike/selfportrait.jpg" alt="Mike Verdone - Texpert" title="Mike Verdone - Texpert" style="width:500px;height:335px;position:inherit;margin-left:50px;" />
+
+<p style="font-weight:bold;">Will digitally-made music ever have the potential to be completely indistinguishable from music made with real instruments? Will experts always be able to tell the difference, or have they been fooled already?<br/><span style="float:right;">- Peter Locke</span></p>
+
+<br/>
+<p>Listen to this:</p>
+
+<p><a href="http://www.pianoteq.com/audio/Chopin-Ballade1-HughSung-C3rec.mp3" title="External link to Pianoteq Chopin Sample">http://www.pianoteq.com/audio/Chopin-Ballade1-HughSung-C3rec.mp3</a></p>
+
+<p>This is an audio file made with Pianoteq3, a fully synthetic piano sound program. It is not made using a recording of a piano; all of the sounds are being calculated by the computer. You can hear many more examples on the <a href="http://www.pianoteq.com/listen?type=acoustic" title="External link to Pianoteq">Pianoteq web site.</a></p>
+
+<p>Pianoteq is on the leading edge of synthetic sound. Their piano simulation is so good that even professional pianists are using it to practice, and many prefer it to sampled pianos (i.e. computer instruments that are made with recordings of real pianos).</p>
+
+<img src="images/mike/pianoteqsc.jpg" alt="Pianoteq" title="Pianoteq" style="width:350px;height:399px;position:inherit;margin-left:125px;" />
+
+<p>The Pianoteq preferences window lets you change the settings of your virtual piano.</p>
+
+
+<p>I haven't heard of a Pianoteq sound system used in a classical music concert, but only because I think the audience might be pissed that the pianist is sitting there with a MacBook instead of a $150,000 grand piano.</p>
+
+<p>Pianoteq uses physical modeling. This means that the computer program is a scientific model of a real piano, and the sound it produces is calculated in real time.</p>
+
+<p>A piano's sound comes from stretched wires that are struck with hammers. The wires vibrate in response to the hit, and each wire has a certain pitch. This sound made by a vibrating wire is actually quite simple to predict if you know the length of the wire, the tension in it, and the string's mass. The formula is not too complex.</p>
+
+<p>The string vibration starts out loud and then becomes quiet over time. This is called decay, and it's also pretty easy to model.</p>
+
+<p>Using just this information we can make a sound sort of like a piano. I found a piano simulation using just these formulae in the examples for a sound programming language called SuperCollider. This is what it sounds like:</p>
+
+<p><a href="images/mike/cruddypiano.mp3" title="Cruddy Piano mp3">Cruddy Piano mp3</a></p> 
+
+<p>And here is the &quot;simple&quot; program that generates the sound. (You are not expected to understand this. I barely do. I'm just putting it here for those who are curious.)</p>
+
+<img src="images/mike/pianotxt.jpg" alt="Piano Program" title="Piano Program" style="width:500px;height:430px;position:inherit;margin-left:35px;" />
+
+<p>Other parts of reality are a lot weirder. Strange things happen inside a piano. For instance, a vibrating string can make other strings in the piano vibrate due to sympathetic vibration. It can also make other metal parts of the piano vibrate in non-musical ways.</p>
+
+<p>There is also the fact that the sound from the vibrating strings is bouncing around inside the piano's wooden frame. The wood reflects the sound, but every reflection is a little bit distorted from the original sound.</p>
+
+<p>Finally, we have sound from other piano parts: the hammers that hit the string make a very subtle &quot;shh&quot; sound on impact. They also make little knocking noises when you take your finger off a key.</p>
+
+<p>The Pianoteq model is based on years of scientific research into all of these physical phenomena. Each physical process is turned into a mathematical formula, and the formulae are turned into a computer program. When run, the program calculates the state of the virtual piano tens of thousands of times per second to produce sound.</p>
+
+<p>There are other physically modeled instruments: virtual xylophones, marimbas, guitars, violins, electric pianos, harpsichords... there are also software packages that model famous guitar amplifiers so you don't have to buy them.</p>
+
+<p>Are these models indistinguishable from reality? They will never produce 100% perfect copies of real physical instruments because the real world is full of smaller and smaller details that have to be simulated, but I think we are already at the level where, for most of these instruments, we can't tell the difference unless we are really trying hard.</p>
+
+<p>Chances are when you clicked on the link to the Pianoteq sound sample you were expecting to be tricked and so you convinced yourself that you heard artificial, computer-y distortions in the sound. I know I did.</p>
+
+<p>To perform a better test, try and find a recording of the piece above (it's Chopin's Ballade #1) performed on a real piano. Play both copies to a friend and ask them which one they prefer... then ask them to identify which one is artificial.</p>
+
+<div id="texpertSept"><img src="images/break2.gif" alt="Break" title="Break" style="width:600px;height:20px;position:inherit;" /></div>
+
+<h2>The Texpert</h2>
+<h3>September 2010: On GIFs and mp3s</h3>
+<h3>by <a href="http://mike.verdone.ca/" title="External link to Mike Verdone's Website">Mike Verdone</a></h3>
+
+<img src="images/mike/666sounds.jpg" alt="Mike Verdone - Texpert" title="Mike Verdone - Texpert" style="width:400px;height:300px;position:inherit;margin-left:100px;" />
+
+<p>Hello. I am Mike Verdone and I am The Texpert.</p>
+
+<p>I got this job because I spent years at university learning the intimate details of how computery type stuff works so that I could work in that industry and get rich.</p>
+
+<p>I think computers are fascinating and fantastically complex devices, but other people find computers mystifying machines that crash all the time and fail to print. Some days I feel the same, but not often.</p>
+
+<p>I want help you see computers and technology the way I do: as totally friggin' amazing.</p>
+
+<p style="text-align:center;">---</p>
+
+<p style="font-weight:bold;">What is a .gif, how do you pronounce it correctly, and what is the earliest .gif image?</p>
+
+<p style="font-weight:bold;">- Jeremy Curry</p>
+
+<p>GIF is an image format popular for making animated pictures of kittens falling over in cute and amusing ways.</p>
+
+<p>I couldn't find the first ever GIF, but here is one of the earliest:</p>
+
+<img src="images/mike/bOB_89A.gif" alt="BOB_89A.GIF" title="BOB_89A.GIF" style="width:320px;height:200px;position:inherit;margin-left:140px;" />
+
+<p>This is a picture of Bob Berry who wrote CompuShow, a GIF image application from 1989.</p>
+
+<p>The GIF image format was originally developed in 1987 by CompuServe and was widely used on the World Wide Web. It beat out other formats like IFF and XBM, and existed before JPEG. It is one of the only image formats that supports animation, which is pretty much the only reason to use it nowadays.</p>
+
+<p>Why are there all these image formats? As you may have heard computers, internally, only deal with numbers. If you want your computer to display an image you have to turn your image into a list of numbers first. The most straightforward way of doing this is called &quot;raw RGB&quot; and it goes like this: take the top leftmost pixel (colour dot) and determine how much red is in it (where 0 means no red and 255 means all the red you can get), how much green, and how much blue; Write that down and repeat with the next pixel, and the next, and so on until all the pixels are stored as red-green-blue values.</p>
+
+<p>Problem is, an image stored like this is massive. A 1024x768 image would contain 2,359,296 numbers between 0 and 255. That's huge.</p>
+
+<p>Computer scientists spend a lot of time studying compression which asks the question &quot;how can we store data in ways that are shorter to describe but mean the same thing&quot;. GIF is a very specifically laid-out list of steps (an algorithm) to transform a raw RGB image in a way such that it uses less storage (is a shorter list), thus making it faster to transfer over the Internet.</p>
+
+<p>The GIF format sacrifices image quality to make the file smaller. It only allows 256 colours in an image. First you create a list of the 256 RGB colours you want to use, then every pixel in the image becomes an index that points at one of those 256 colours.</p>
+
+<p>With these rules we can store our image in a much smaller manner. First we store 256 RGB colours (256 * 3 colour channels = 768), then we store the colour index from 0 to 255 for every pixel in the image, of which there are 786,432. Now our image is a list of 787,218 numbers from 0 to 255, which is about a third the size of the raw RGB version.</p>
+
+<p>GIF has one more trick up its sleeve, though. A special sauce called Lempel-Ziv-Welch (LZW) encoding. This is not exactly simple to explain. The idea is that when you see a group of numbers in your list that you've seen before, rather than storing them all again you just say &quot;look back in the list and copy that chunk you already saw.&quot; Except the computer science guys say it very strictly using mathematics. (For the intimate and borderline incomprehensible details of LZW see <a href="http://en.wikipedia.org/wiki/Lzw" title="External link to Wikipedia">Wikipedia</a>.</p>
+
+<p>You can't predict how much shorter LZW makes your list because it depends on the list's contents. Some pictures with a lot of repetition will compress really well. Others will not.</p>
+
+<p>When GIF compression is done what you end up with is a picture that is much smaller in storage size than your raw RGB, but can be turned back to raw RGB if you know the algorithm we described above. GIF is just one way to accomplish this task. JPEG uses a completely different algorithm which most people agree is much better.</p>
+
+<p>Oh, it's pronounced &quot;jif&quot;. Bob Berry, pictured above, <a href="http://www.olsenhome.com/gif" title="External link to OlsenHome.com">said that</a>. In fact, he buried that statement IN THE PICTURE ABOVE in a part of the image data that most programs don't bother to look at any more. I took the liberty of digging it out for you:</p>
+
+<img src="images/mike/gifSecretMessage.jpg" alt="Mike Verdone - gif secret message" title="Mike Verdone - gif secret message" style="width:600px;height:49px;position:inherit;" />
+
+
+<p style="text-align:center;">---</p>
+
+<p style="font-weight:bold;">Why do low-bitrate mp3s sound like trash and what does bitrate really mean, anyway?</p>
+<p style="font-weight:bold;">- Jesse Locke</p>
+
+<p>This dovetails really nicely from our discussion on GIF files. To sum that up:</p>
+
+<p>* All data in a computer is expressed as lists of numbers</p>
+
+<p>* Algorithms transform these lists and give them meaning (ie. you give an mp3 to music software and it plays sound. You can't give an mp3 file to a GIF image display program -- it goes mental)</p>
+
+<p>* Computer scientists spend a lot of time trying to find cool new ways to compress data, that is, to make the number list that describes your data into a shorter list with the same meaning</p>
+
+<p>Saying that computers store &quot;lists of numbers&quot; is actually a simplification. Computers are digital devices which means everything they do is done via signals that are either ON or OFF. A single on-or-off state is called a bit.</p>
+
+<p>However, lists of bits can be made to represent any number you can think of through binary encoding. Counting to 8 in binary looks like this:</p>
+
+<ul>
+<li>000 zero</li>
+<li>001 one</li>
+<li>010 two</li>
+<li>011 three</li>
+<li>100 four</li>
+<li>101 five</li>
+<li>110 six</li>
+<li>111 seven</li>
+</ul>
+
+<p>Note that we only counted to seven. Computer scientists always start counting things with zero because they are a little strange.</p>
+
+<p>If you have three bits you can store eight possible patterns. You can count to seven, but you can't fit any more numbers in three bits.</p>
+
+<p>Bits are a good unit of measure for computer data because they're indivisible, identically sized things. No matter what kind of data you have you can measure its storage size in bits.</p>
+
+<p>For convenience, bits are often grouped into megabytes, which is 8,000,000 bits. Modern computers deal in mind-bogglingly large amounts of bits: your new one-terabyte hard drive stores 8 quadrillion bits (8,000,000,000,000).</p>
+
+<p>An mp3's bitrate describes the number of bits per second of audio the mp3 contains. A 128 kbit/s mp3 uses 128,000 bits for every second of audio. We need to understand more about mp3 files to understand what those bits contain.</p>
+
+<p>Sound from a computer is usually produced by way of a moving speaker driver, and the most simple way to store sound data is to record the position of your speaker driver over time. When your driver is completely sucked in we call that 0, and when it's completely pushed out that's 65,535. (We pick that weird upper number because it's the highest number that fits in 16 bits).</p>
+
+<p>If we write down the position of your speaker driver as a number 44,100 times every second we end up with a CD-quality audio file. That means we use 705,600 bits per second... double that for stereo sound and we're now talking 1,411 kbit/s). That's pretty terrible. This is how WAV files store sound and mathematicians call this a &quot;time domain&quot; representation.</p>
+
+<p>mp3's job is to reduce this to a reasonable number so you can fit more songs in your iPod, or transfer songs on the Internet quickly. The mp3 algorithm first chops the sound file into 1/70th of a second pieces called frames. Then some real magic happens: using a mathematical technique called Fourier Transform, these speaker-position lists are transformed into lists of audible pitches. Rather than &quot;move the driver in out in out in out&quot; the computer now understands something like a&quot; G above middle C and an A above that&quot;. This is called frequency domain representation.</p>
+
+<p>Turning time-domain data into frequency-domain is pretty simple for the human brain -- you interpret all the sound you hear as pitched tones instead of air-movement -- but it's really difficult to do computationally. The formula is so revolutionary that this geek has tattooed it on his arm:</p>
+
+<img src="images/mike/fourierTattoo.jpg" alt="[image] fourier tattoo" title="[image] fourier tattoo" style="width:200px;height:267px;position:inherit;margin-left:200px;" />
+
+<p>We now have a list of pitches instead of speaker motion. However, this list is no smaller than the time domain representation and mp3's been told to keep the file under 128 kbit/s. The next step begins: application of the psychoacoustic model.</p>
+
+<p>The psychoacoustic model contains rules about how humans hear sound. It knows things like how humans usually perceive loud sounds as more important than quiet sounds, and that they can't hear tones below 40 Hz or above 25,000 Hz. It also knows some more complex things, like how when a person hears a tone at one pitch it can actually mask tones at other pitches. mp3 encoding works because there are defects in the human brain's ability to hear sound.</p>
+
+<p>Using this information the mp3 algorithm orders the list of pitches from most important to least important. Then, it throws away the least important pitches until what remains fits in the desired bitrate.</p>
+
+<p>mp3 is a lossy compression algorithm, meaning what comes out is not exactly what goes in. However, the output is close enough that we can't hear a difference... unless the bitrate is too low.</p>
+
+<p>When the bitrate is too low the psychoacoustic model is forced to throw away tones that are actually somewhat important. When listening to the low-bitrate mp3 you perceive that there are tones missing, and it sounds terrible. The technical term for that weird shimmery distortion in a bad mp3 is &quot;compression artifacts&quot;.</p>
+
+<p>All mp3s suffer from some loss of fidelity, but the bitrate at which the loss becomes audible cannot easily be determined. It depends on listening equipment, content of sound, and the sensitivity of the listener. Most people agree that some loss is acceptable to keep the files small. If you disagree you can insist on lossless compression formats, meaning the sound that comes out is identical to the sound that went in. Lossless compression guarantees that there will be absolutely no compression artifacts.</p>
+
+<p>Formats like WAV, AIFF, FLAC (Free Lossless Audio Codec), and ALAC (iTunes' Apple Lossless Audio Codec) are lossless. Lossless files are much larger than corresponding mp3s but if you're an anal retentive audio purist (like me) you'll use them. Then you are free to chastise your friends about the totally inaudible tones they're missing with their mp3 files, those philistines.</p>
+
+<p style="font-weight:bold;">Got tech questions of your own? Email The Texpert at texturemag [at] gmail [dot] com.</p>
+
+<div id="earworms"><img src="images/break2.gif" alt="Break" title="Break" style="width:600px;height:20px;position:inherit;" /></div>
+
+<h2>Horrifying Earworms</h2>
+<h3>Selections by <a href="http://mike.verdone.ca/" title="External link to Mike Verdone's Website">Mike Verdone</a></h3>
+
+<p>Earworms: those cloying pieces of music that get stuck in your brain and just won’t leave. Like “The Teddy Bears' Picnic.” Or “It’s a Small World After All.” Do you hear those songs playing in your head? Exactly. Earworms.</p>
+
+<p>Earworms from other cultures can appear strange and disconcerting. Surreal and mystifying. Yet somehow that fundamental ability to get stuck to your brainstem and never leave crosses boundaries of language and convention. Let’s take a trip through some earworms from cultures very different than our own: those of Europe, Japan and the nether crannies of the Internet. I assure you this will be a strange yet memorable journey (no matter how you try to forget).</p>
+
+<h4>1. Bruce &amp; Bongo – “Geil”</h4>
+
+<!--http://www.youtube.com/watch?v=03FnBFscMVM-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/03FnBFscMVM&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/03FnBFscMVM&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: Britain, 1980s) There was something strange in the British water supply during the mid-’80s. How else can you explain atrocious novelty dance hits like Bruce &amp; Bongo’s “Geil”? This song was useful to me because it improved my German vocabulary immensely. “Geil” means lustful or horny. Your new shoes can be “sehr geil,” meaning totally awesome. If you say “ich bin geil” that's something else entirely.</p>
+
+<h4>2. Alestorm – “Keelhauled”</h4>
+
+<!--http://www.youtube.com/watch?v=99a6DaheLqs-->
+
+<div style="margin-left:20px;margin-top:20px;">
+<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/99a6DaheLqs&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/99a6DaheLqs&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+</div>
+
+<p>(Origin: Scotland, 2008) Of all the kinds of metal I’ve discovered (which include Death Metal, Black Metal, Goth Metal, Viking Metal and Troll Metal) my absolute favorite is Pirate Metal. The keytar makes this video perfect. Pirate Metal counts as a real genre because there are at least three Pirate Metal bands and there are arguments as to which ones are “real” Pirate Metal and which are just faking it. [Editor’s note: Calgary even has a Pirate Metal band! <a href="http://www.myspace.com/verbaldeception" title="External link to Verbal Deception's MySpace">Verbal Deception</a> -  yarrrrr…]</p>
+
+<h4>3. Musov Shoko – “Ballad to a Wigged Dog”</h4>
+
+<!--http://www.youtube.com/watch?v=Seh9_sFv1Z4-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/Seh9_sFv1Z4&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Seh9_sFv1Z4&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: The Internet) An 11-minute public domain movie excerpt is extended into a glorious one-minute ode to dogs with wigs.</p>
+
+<h4>4. HALCALI – “Strawberry Chips (Tanaki Chigai Mix)”</h4>
+
+<!--http://www.youtube.com/watch?v=yR7bv68pLww-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/yR7bv68pLww&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR7bv68pLww&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: Japan) An epileptic video edit turns J-Poppers HALCALI’s song <a href="http://www.youtube.com/watch?v=k4Den1Ez1ks&feature=related" title="External link to YouTube">“Strawberry Chips”</a> into an abstract dancefloor demolisher.</p>
+
+<h4>5. Pigloo – “Ça plane pour moi”</h4>
+
+<!--http://www.youtube.com/watch?v=uVz-gS5FVhM-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/uVz-gS5FVhM&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/uVz-gS5FVhM&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: France) You may have heard this song in English where it's known as “Jet Boy, Jet Girl” and features lyrics about anal sex. The original French version, “Ça Plane Pour Moi” by Plastic Bertrand, is not so shocking by way of lyrics though it’s still talking obliquely about sex. I think having it covered by CG penguins heaps on enough cognitive dissonance to land this in the WTF pile.</p>
+
+<h4>6. Caramell – “Caramelldancing”</h4>
+
+<!--http://www.youtube.com/watch?v=A67ZkAd1wmI-->
+
+<div style="margin-left:20px;margin-top:20px;">
+<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/A67ZkAd1wmI&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/A67ZkAd1wmI&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+</div>
+
+<p>(Origin: Europe) Listening to this you can actually feel your teeth rotting out from the song’s relentless sugar-high energy. The visuals are suitably stroboscopic as to cause hypnosis and latent permanent damage to your visual cortex. This video has 3,000,000 views likely from about 1,000 people who just can’t stop watching it. It’s been translated to every possible language including Swedish, German, and Japanese. This Japanese version features less autotune and four frames of additional animation in <a href="http://www.youtube.com/watch?v=PPQbdeUfalI" title="External link to YouTube">the video</a>. How has North America remained immune from this plague? Then again, we survived Crazy Frog almost totally unscathed.</p>
+
+<h4>7. EBN - “Electronic Behaviour Control System”</h4>
+
+<!--http://www.youtube.com/watch?v=wf8cWuxweyk-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/wf8cWuxweyk&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/wf8cWuxweyk&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: California, 1990s) Nowadays this kind of video cutup technology is available to every bored teenager with a copy of Windows Movie Maker, but EBN were working in the early ’90s with primitive computer video systems, building politically charged dance hits from hallucinogenic TV clips.</p>
+
+<h4>8. The Embodiment of the Scarlet Devil – “U.N. Owen was Her? (Ronald McDonald mix)”</h4>
+
+<!--http://www.youtube.com/watch?v=Q16KpquGsIc-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/Q16KpquGsIc&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Q16KpquGsIc&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: Japan/the Internet/the bowels of Hell itself, 2008) Bizarrely named background music track from an obscure Japanese video game is edited together with Japanese McDonalds commercials for absolutely no sensible reason except to confuse and horrify the viewer.</p>
+
+<h4>9. Seelenluft - “Manila”</h4>
+
+<!--http://www.youtube.com/watch?v=mh2SiGuDT1A-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/mh2SiGuDT1A&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/mh2SiGuDT1A&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: Berlin, 2004) I'm sorry, but you’ll never get this kid's voice out of your mind. Ever. It’s a good example of Berlin minimal techno circa 2004, though. Minimal techno persists as the dominant style in Berlin though it’s even more minimal now. You can almost recognize a guitar sound in this song and that’s way too much, dude!</p>
+
+<h4>10. Basshunter – “Boten Anna”</h4>
+
+<!--http://www.youtube.com/watch?v=RYQUsp-jxDQ-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/RYQUsp-jxDQ&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/RYQUsp-jxDQ&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: Sweden, 2006) Basshunter is a Swedish techno producer who made some songs about really nerdy shit. “Boten Anna” is a song about an Internet chatroom bot yet somehow it achieved 25,000,000 views on YouTube and won Basshunter a big record contract. His other hit is called “Dota” and it’s about playing <em>Warcraft III</em> on the Internet. Basshunter’s album was eventually translated to English and released under the title <em>LOL &lt;(^^,)&gt;</em> but a lot of the nerdy song lyrics were replaced with generic girl/boy stories and nobody gave a shit.</p>
+
+<h4>11. Shuffle Demons – “Out Of My House, Roach”</h4>
+
+<!--http://www.youtube.com/watch?v=q6_sLmuze98-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/q6_sLmuze98&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/q6_sLmuze98&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: Toronto, late 1980s) This terrible video from Toronto jazz-pop band The Shuffle Demons became a family favorite. I guess my siblings and I loved shouting “get out of my house... roach!” at each other. This went on for years. I guess I’m lucky we never encountered the Shuffle Demons' video for <a href="http://www.youtube.com/watch?v=KZnLjRi_g9o" title="External link to YouTube">“Spadina Bus”</a>.</p>
+
+<h4>12. The Firm – “Star Trekkin’”</h4>
+
+<!--http://www.youtube.com/watch?v=FCARADb9asE-->
+
+<div style="margin-left:60px;margin-top:20px;">
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/FCARADb9asE&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/FCARADb9asE&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+</div>
+
+<p>(Origin: Britain, 1987) Another one from that horrible novelty-song era of British history. This song recycles catchphrases from <em>Star Trek</em> into a delirious so-happy-it-hurts rondo. The use of potato-based stop-motion animation for the video really adds to the charm.</p>
+
+<h4>13. “The Holly Dolly Song (Levan Polka)”</h4>
+
+<!--http://ziza.ru/2006/09/21/Holly_Dolly__Dolly_Song.html-->
+
+<p><a href="http://www.youtube.com/watch?v=U2wtIIT9hMU&feature=related" title="External link to YouTube">[Watch it here - embedding disabled :(]</a></p>
+
+<p>(Origin: Finland, Internet, Russia?, 2009) An accapella polka by Finnish vocal group Loituma becomes the background to music to a vanity website called <a href="http://www.leekspin.com" title="External link to Leekspin">leekspin.com</a> which shows an animated character twirling a leek. The song, an instant earworm, becomes suddenly famous and gets appropriated by someone probably in Russia who hastily composes a techno remix and releases it with a video featuring a poorly animated cow (or donkey) as a kind of Crazy Frog knock-off. The perpetrators of this sonic atrocity remain at large.</p>
+
+<h4>14. Spitting Image – “The Chicken Song”</h4>
+
+<!--http://www.youtube.com/watch?v=3vUVJsfG3eA-->
+
+<div style="margin-left:20px;margin-top:20px;">
+<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/3vUVJsfG3eA&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/3vUVJsfG3eA&hl=en_US&fs=1&rel=0&color1=0xe1600f&color2=0xfebd01" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+</div>
+
+<p>Most people remember Spitting Image’s weird rubber-faced puppets from the Genesis “Land of Confusion” video, but before that they also made... this... thing. Is it a novelty song, or a novelty song that makes fun of novelty songs? The last line nails it: “though you hate this song/ you'll be humming it for weeks.” Thanks for that. Really appreciated.</p>
+
+<p><em>Mike Verdone is a writer, musician, and computer nerd from Calgary currently living in Berlin. His current projects include the electronic-noise group <a href="http://www.facebook.com/pages/Post-Post-IDM/146486127318?ref=ts/" title="External link to Post Post IDM facebook page">Post Post IDM</a> and learning German.</em></p>
+
+<div id="berlin"><img src="images/break2.gif" alt="Break" title="Break" style="width:600px;height:20px;position:inherit;" /></div>
+
+<h2>Grinnin’ like a vaudevillian</h2>
+<h3>A visit to the only cowboy bar in Berlin (that I know of)</h3>
+<h3>by <a href="http://mike.verdone.ca/" title="External link to Mike Verdone's Website">Mike Verdone</a></h3>
+
+<img src="images/mike/press/mikepenny.jpg" alt="Mike Penny and his Moonshiners - courtesy David Biene" title="Mike Penny and his Moonshiners - courtesy David Biene" style="width:500px;height:333px;position:inherit;margin-left:50px;" />
+
+<p>A month ago I sold almost everything I owned, packed a suitcase, and moved to Berlin, Germany for a very cool job. I arrived on December 31, 2009. Berliners were firing rockets into the sky, the city smelled of brimstone. I hid in the corner of my hostel bunk like a scared animal.</p>
+
+<p>A month has passed and I have a home, and a life. I can buy groceries and order beer. I can navigate some of the city without a map.</p>
+
+<p>Berliners are polite, food is cheap, the beer is good, but Berlin is an alien place full of magic and weirdness. Let me tell you about it.</p>
+
+<p style="text-align:center;">* * *</p>
+
+<p>Going to a bar in Berlin can be like falling into another dimension, where the rules of normal life don't seem to apply. More than that, every bar has its own dimension; it's own level of what-the-fuck-ness. The cowboy one was probably the weirdest.</p>
+
+<p>Here's how it happened. I didn't know where to go that Saturday so I searched the Internet for nearby clubs and cross-referenced them with Exberliner (the only Anglo Berlin magazine of note). My place is in Prenzlauer Berg on the border of Mitte, meaning it’s bar and club central and my options are extensive. Bewildering, even.</p>
+
+<p>After 15 minutes of searching I couldn't remember which bar was the indie electropop/’80s bar, the bar that played only pre-1959 rock and swing, the bar with the tattoo parlour in it, the bar with &quot;dating in the dark&quot;, and the dance club situated in an old kindergarten with a playroom full of toys. I said &quot;fuck it&quot;, picked one called <a href="http://www.bassy-club.de/index.php" title="External link to Bassy Club">Bassy Club</a>, and walked out the door into the slushy mess of January in Berlin.</p>
+
+<p>The doorman wanted eight euro but there was a live band so that's not too bad. I got my stamp and checked my coat. Nothing seemed particularly thematic until I got into the main room and found the cowboys.</p>
+
+<p>There were five of them, maybe, lounging on a couch by the bar. They were full on cowboys. Tight-jean, flannel-shirt, Stetson-hat, full-on fucking cowboys. Each one had a moustache one could envy.</p>
+
+<p>I stopped and stared at them, dumbfounded. Where the hell do you even find a getup like that in Berlin? Is there some tiny hole-in-the-wall cowboy fashion store in an alley off a forgotten plaza where a shifty-eyed Frau will sell you assless chaps on the sly?</p>
+
+<p>I noticed, then, that the DJ was spinning Hank Williams records three times as old as he was. I realized this was the cowboy bar and there was nothing ironic about it.</p>
+
+<p>Berlin is refreshingly free of irony. A cowboy-themed bar night in Calgary could only be accomplished in one of two ways: at Stampede time it would be full of non-cowboys in Lacoste polos doing coke and getting puke-sick on Bud. At non-Stampede time it would be full of nouveau bohemians partying there as a form of self-aware ironic critique of the Lacoste-wearing assholes. You couldn't actually have a cowboy party. It would just be too... weird. Too mainstream.</p>
+
+<p>Here, though, the highbrow mixes with the lowbrow. I can go out one evening and see an interpretive dance performance/techno-Opera, and then I can go eat offensively-named hamburgers at White Trash Fast Food and listen to a band of German teenagers play Motörhead covers, and all of these are considered perfectly valid cultural experiences.</p>
+
+<p>Simon, an expat Edmontonian I met in a bar done up to look like a giant living room full of Ikea sofas, claimed it was all about poverty.</p>
+
+<p>&quot;Everyone is equally poor here,&quot; he said. You don't have to be rich to go to the opera, and everyone enjoys a good live band. I think that was his argument. I was pretty drunk at the time. But it's true — you'll see people of every age group in the bar. I once saw an 80-year-old woman in a little poufy hat dancing to punk rock at White Trash. So be it.</p>
+
+<p>The point is if you're in the cowboy bar you're in the cowboy bar. Turn off your &quot;why&quot; sense and go with it.</p>
+
+<p>The band started playing. They were called <a href="http://www.myspace.com/moonshinersberlin" title="External link to Mike Penny and his Moonshiners' MySpace">Mike Penny and his Moonshiners</a> and they played country and western as one would expect. The lead singer was dressed in full linen suit and had a grin like a vaudevillian. The band, on drums, guitar, and lap-steel, looked like ranchers back from a long day in the field. They played western swing, early blues, a bit of rockabilly.</p>
+
+<p>At first I was sure they were from somewhere around Germany, probably Bavaria. Then I became convinced they were from the UK. It was something about the shy way Mike said &quot;danke shone&quot; after every song, like it was something he picked up in a phrasebook. The lack of accent also threw me. By the end of the show I was certain they were a band out of Tennessee on their first ever European tour. Then Mike unleashed some rapid-fire German while introducing the band and I was shocked to discover they're local boys. A local Berlin country band.</p>
+
+<p>The crowd was mixed. A lot of normal looking 20-somethings, the handful of convincingly dressed cowboys, and one guy with muscles rippling through his Dukes of Hazzard t-shirt and a greasy black pompadour. They were polite to the band but most seemed a bit unimpressed, like this was not the best of the country bands to teleport in from 1960 this month. The applause was only polite despite the way the dour-faced guitarist would unleash rapid, flawless, twangy solos. Berlin bands are very technically skilled, though they are too prim and proper to let loose like Canadians.</p>
+
+<p>The show over, I collected my coat and walked outside into wet Berlin snow. I looked back at the tiny unmarked door that led to the bar and imagined it could disappear. Sometime in the early morning hours the buildings around it would slide together and the bar would fold in on itself sending the staff, the cowboys, the band, everything back into the bizarro dimension from whence it came. But that won't happen. Bassy Club will still be there next week and every week thereafter, serving cheap beer and playing crackly old country records as if it was a perfectly normal thing to do.</p>
+
+<p><em>Mike Verdone is a writer, musician, and computer nerd from Calgary currently living in Berlin. His current projects include the electronic-noise group <a href="http://www.facebook.com/pages/Post-Post-IDM/146486127318?ref=ts/" title="External link to Post Post IDM facebook page">Post Post IDM</a> and learning German.</em></p>
+
+<div id="noughties"><img src="images/break2.gif" alt="Break" title="Break" style="width:600px;height:20px;position:inherit;" /></div>
+
+<h2>Noughties or nice</h2>
+<h3 style="margin-bottom:0;">We might not know how to define the decade,</h3>
+<h3 style="margin-top:0;">but surely, parts of it didn’t suck.</h3>
+<h3>by <a href="http://mike.verdone.ca/" title="External link to Mike Verdone's Website">Mike Verdone</a></h3>
+
+<img src="images/press/segway.jpg" alt="Segway" title="Segway" style="width:300px;height:442px;float:right;" />
+
+<p>My coworker told me he was going to a ’90s party and I cynically exclaimed “Oh God, we’re doing this now? It’s too soon! It’s only been like a decade!”</p>
+<p>“1990 was 19 years ago,” he said, and I shuddered. The weight of time hit me then and there by the coffee machine. The ‘90s were a decade ago and in a few weeks it will be two.</p>
+<p>Is that really it? The 2000s are over? We still don’t know what to call the damn decade. The aughts? The noughts? The two-k’s? Maybe it’s just too recent for us to crystallize the last decade into a solid form that we can hold onto and stereotype, but to me it seems this era has been a historical intermission. A confusing segment of time where the world coughed and cleared its throat before beginning its narration of a properly exciting tale yet to be written. Of course, all history is interpreted by the historian and this description fits as much the closing decade as my 20s, which are fading paradoxically too quickly and not quickly enough.</p>
+
+<p style="text-align:center;">* * *</p>
+
+<p>I suppose the tone was set on September 11, 2001 (a day so infamous and wrung-out it feels almost trite to mention it except that any 2000s retrospective article that doesn’t discuss it will seem callous and misdirected). This was the day we awoke to find the tumescent twin symbols of the modern first-world economy smouldering on TV. Somewhere in the shock and horror, the confusion and rage, we realized that we’d someday become those old men who constantly tell you where they were when Kennedy was shot.</p>
+<p>After that, what was the point? The defining moment of the decade was now set, and how could one challenge it? It didn’t matter what book you wrote, movie you made, artwork you created... it would all be labeled “post-9/11.” The rules had changed though nobody could explain how except that action movies had to suddenly be a lot less violent and could not be set in New York.</p>
+
+<p style="text-align:center;">* * *</p>
+
+<p>I keep trying to think of what, definitively, started in this decade but everything I come up with started before the year 2000.
+Was this the decade of the Internet? Not really, the Internet was booming in 1998. This was the decade the Internet bubble burst and we all realized that pets.com was insane to spend so much on Superbowl ads.</p>
+<p>Was this the decade that Indie Rock broke? It certainly did pretty well but personally I peg the beginning of that at the moment Radiohead released <em>OK Computer</em> in 1997 and the post-grunge phase of good music began. And besides I think Sonic Youth have been releasing records since 1884 and pretty much any sort of guitar squeal can be treated as derivative.</p>
+<p>Moby had a hit record and showed that the best way to make it in the music business today is to get your music in car commercials, and frankly that turned me off (though I can't fault his record too much. It was pretty decent.).</p>
+<p>We all got iPods and stopped buying CDs, but then we started buying vinyl records. Is that progress?</p>
+<p>Nearly all forms of media became technically downloadable, but not legally. Hollywood shit itself.</p>
+<p>Facebook brought us closer to our friends while redefining “friend” as “acquaintance” and shattering our attention spans further.</p>
+<p>Plaid went out of style, then came back.</p>
+<p>How sad is it that this decade’s most obvious popular brand-new never-seen-before invention was the Segway?</p>
+
+<p style="text-align:center;">* * *</p>
+
+<p>We started some wars, I guess.</p>
+<p>It’s easy in retrospect to say that after 9/11 we should have started soul searching and discussing the effect of cut-throat Western capitalist culture was having on the Middle East, but it seems all of North America fell into for-us and against-us camps whose debate generated an ungodly national white noise. When we could hear again we found ourselves bombing the desert under the guidance of a gibbering monkey of an American President who was just killin' time waiting for the rapture. We were certain to find those Saudi terrorists in Afghanistan!</p>
+<p>Now I can’t fault the Canadians and Americans and all the soldiers in Afghanistan trying to pick up the pieces and sift through the rubble today. I really hope they clean things up. But what we’ve got is a country that’s been in perpetual warfare for the last 30 years against the Russians, against the Americans, against themselves... and we thought a dose of good old fashioned high-explosive retribution was just what was needed to set things right.</p>
+<p>In the ’90s, in those Remembrance Day assemblies they’d tell you we live in the longest era of peace in the last thousand years, and that we should be grateful we’re not at war. But when you add the first Iraq “conflict” to the Afghanistan “mission” and the second Iraq “liberation” it becomes clear we’re only not at war because the names have changed. I pray we won’t have an Iranian “snit.”</p>
+
+<p style="text-align:center;">* * *</p>
+
+<p>One thing that didn't suck about the ’00s was the people. Say what you will about “hipsters,” our new bohemians. <em>Adbusters</em> already <a href="http://www.adbusters.org/magazine/79/hipster.html" title="External link to Adbusters">said a lot</a>, all of it negative and stereotypical (ha ha, fixie bicycles, ha ha).</p>
+<p>The thing that <em>Adbusters</em> missed in its blustering, poorly analyzed tirade (and so did this well-written <a href="http://towardfreedom.com/home/content/view/1404/1/" title="External link to Toward Freedom">rebuttal</a>) was the creativity of this new social class. In Calgary, I watched local bands form, practice, perform, suck, get good, and get really good before suddenly breaking up. The music scene resembles nuclear fission with musicians getting together, generating immense amounts of rock and roll energy, and then splitting apart with tremendous force catapulting at least one member into some kind of out-of-town arts degree.</p>
+<p>There is no one band or artist I can point to as leading this incredible force just as no single atom can be declared the initiator of a nuclear explosion, but one can tell from the staccato Geiger bursts that something is going to blow up. Soon.</p>
+
+<p style="text-align:center;">* * *</p>
+
+<p>Is that not what one’s 20s are about? We’re just waiting for the baby boomers to die to have our chance to run the world. In the meantime as octogenarians continue to hold political and financial power we make our 20s an extended teenagerhood without social status nonsense and the awkwardness of puberty. It seems to me the world itself is holding its breath waiting for new leaders to step forward.</p>
+<p>As this decade closes, the question for the next one is will we step forward and take control of this Earth? Will we build it up into what we dream?</p>
+<p>I hate looking backwards because I become a cynic, but when I look to the future I am ever optimistic. I think we will.</p>
+
+<p><em>Mike Verdone is a writer, musician, and computer nerd from Calgary. His current projects include the electronic-noise group <a href="http://www.facebook.com/pages/Post-Post-IDM/146486127318?ref=ts/" title="External link to Post Post IDM facebook page">Post Post IDM</a>.</em></p>
+
+<div id="spector"><img src="images/break2.gif" alt="Break" title="Break" style="width:600px;height:20px;position:inherit;" /></div>
+
+<h2>The Spectre of Spector</h2>
+<h3>by <a href="http://mike.verdone.ca/" title="External link to Mike Verdone's Website">Mike Verdone</a></h3>
+<h3>Illustration by <a href="http://www.myspace.com/sharpends" title="External link to Sharp End's Myspace">Chris Zajko</a></h3>
+
+<img src="images/chris/spector.jpg" alt="Chris Zajko - Phil Spector" title="Chris Zajko - Phil Spector" style="width:500px;height:624px;position:inherit;margin-left:50px;" />
+
+<p>Last week at a <em>Beatles: Rock Band</em> party I observed, loudly and to anyone who would listen, that if you wanted to love the Beatles all you needed was a copy of <em>Let It Be</em> and some time to listen to it. The next day I put on the album and realized I was lying to everybody. <em>Let It Be</em> is a mediocre album at best marred by terrible production. I hastily told everyone I'd talked to at the party that I was wrong. <em>Let It Be... Naked</em> is the album one needed because the original <em>Let It Be</em> was ruined by one man: Phil Spector.</p>
+
+<p>First of all, let's not talk about Phil Spector murdering his wife. The guy has problems, obviously. Just look at his hair. Incidentally let's not talk about his hair, either. Let's talk about his work.</p>
+
+<p>Phil Spector casts an impressive shadow over the history of popular music. In 1960 at the age of 19 he came to New York as an apprentice to songwriters and producers Jerry Leiber and Mike Stoller. By 1961, records he produced were charting in the top ten. Between 1962 and 1966 the man could be found on every record that mattered: he played guitar on the Drifters' hit &quot;On Broadway&quot;; he produced the original version of &quot;Twist and Shout&quot; by the Top Notes, later appropriated and best remembered as a Beatles tune; he worked with Ray Peterson, The Paris Sisters, The Ronettes. The man is a legend and his work changed the history of pop music and pop culture in general. Did you know he plays a drug dealer in <em>Easy Rider</em>? (Seek to 2:41, he's wearing yellow-tinted aviator sunglasses and he snorts a spoonful of coke.)</p>
+
+<p>Spector's style, the sound that makes listeners go &quot;oh, that's a Phil Spector record&quot; is the Wall of Sound. The idea is quite simple: take whatever pop tune you got and build it up. Layer on more instruments, track upon track. Mix everything louder. Use compression, saturation, and reverb to give everything a fuller, bigger, louder, brighter sound. Phil was one of the first to maximize the potential of the new eight-track mixing equipment of the era. (The Beatles only needed four to produce <em>Sgt. Pepper's Lonely Hearts Club Band</em> in 1967.)</p>
+
+<p>The reason the Spector sound works is that it is suited to cheap listening equipment: AM radio, car stereos, cheap jukebox turntables with ground-down needles. A record produced &quot;properly&quot; with lots of dynamic range will sound thin and reedy on cheap equipment, but a Spector record will sound full no matter where you put it. A blessing and a curse because when played on a good sound system it will sound no better. It will in fact sound worse. An audiophile with a pile of hi-fidelity gear will hear a blaring wave of tones. As if all of the instruments were impossibly placed in the exact middle of the room and all playing as loudly as possible. The volume level rarely changes. This is truly the wall of sound, and the listener's head is banged into it over and over again.</p>
+
+<p>The wall of sound technique influenced other producers (Brian Wilson was obsessed with it and sought to replicate it on <em>Pet Sounds</em> in the midst of spiralling into madness) but this was just one sound available at the time. On the opposite end of the spectrum The Beatles produced remarkably crisp and spacious records under the gentle guidance of George Martin. Going back as far as the first Beatles album, 1963's <em>Please Please Me</em>, there is an airy openness to the recordings. Even on loud songs like &quot;Boys&quot;, &quot;Twist and Shout&quot;, and &quot;I Saw Her Standing There&quot; the mix is warm and wide with delicate echoes and harmony.</p>
+
+<p>George Martin shepherded the Beatles through almost the entirety of their career. His production style can be heard through the entire Beatles catalogue. From rock 'n roll to psychedelic, the records sound understated and precise. Even on much &quot;thicker&quot; records like <em>Sgt. Pepper's Lonely Hearts Club Band</em>, making heavy use of layered tracks, distortion and effects, there is still a lot of space. Listen to the way the handclaps float high above and to the right in &quot;Getting Better&quot; (on the Stereo mix).</p>
+
+<p>It shouldn't surprise us that records produced by an Englishman in London should sound very different than records produced by an American in New York, but what's important is that each production style is suited to a particular kind of band. Wall of Sound and Martin's crispy cleanness are aesthetic choices that showcased the artists they respectively produced in the best possible light. When production styles and artists collide the results can be disastrous, as they were when Spector produced the Beatles in 1970.</p>
+
+<p>By 1969 George Martin was in high demand as a producer and for one reason or another was unable to produce the Beatles' final record. <em>Let It Be</em> was rather a mess, anyway. Based on recording sessions from early 1969 it was recorded before Abbey Road but not mixed or released until after (leading to a bit of a spat amongst Beatles fans as to which album truly is the last Beatles album). The concept was a &quot;back to basics&quot; record with a live feel: less multi-tracking and overdubbing, just some straight recording and phenomenal performances. The playing was great but the relationship between the Beatles was strained and much bickering and sarcastic talk was recorded on the master tapes between songs and during rehearsal sessions. By the end of recording they were sick of the project and of each other.</p>
+
+<p>The tapes were given to EMI engineer Glyn Johns to produce and in May of 1969 the first version of the album, called Get Back, was completed. Its release was pushed back and then it was shelved because nobody really cared about it. Glyn Johns then produced a second version of &quot;Get Back&quot; which was also not released.</p>
+
+<p>Not certain what to do, the tapes were given to Phil Spector and his productions of these tracks were released as the <em>Let It Be</em> album, much to the chagrin of Paul McCartney who was pushing the stripped-down sound. Spector applied his trademark sound to the record and the result is, frankly, appalling. Orchestral and choral backing tracks were recorded for songs like &quot;Across the Universe&quot; and &quot;The Long and Winding Road&quot;. Songs that do not have additional tracks, like &quot;Get Back&quot;, are still mixed with the wall of sound style with all instruments front and centre, compressed blaringly loud.</p>
+
+<p><em>Let It Be</em> was a commercial success and many of its songs went on to win awards, but I would argue this was in spite of their production not thanks to it. Rolling Stone panned it at the time.</p>
+
+<p>Of course we can't go back in time and prevent Phil Spector from producing <em>Let It Be</em>, but we can hear what <em>Let It Be</em> could have been thanks to the 2003 release of <em>Let It Be... Naked</em>. This little album presents a version of <em>Let It Be</em> without the influence of Spector. Based on the original tapes and with the financial help of Paul McCartney who was never terribly happy with the album in the first place, the orchestral tracks are gone, the compression is reduced, and the reverb is stripped back. The results are stunning.</p>
+
+<p>With &quot;The Long and Winding Road&quot;'s orchestral shmaltz stripped away we can hear a plaintive piano melody. No longer bombastic, the song sounds honest and heartfelt. &quot;Across the Universe&quot; has also been de-orchestrated revealing some raw beauty and showcasing Lennon's vocals.</p>
+
+<p>While its more modern production style is still far away from a George Martin record, it is a lot more airy and limber than Spector could ever dream of. It also has a Paul's vocals mixed a lot louder. Remember, he paid for the thing. I may be crucified for saying it, but <em>Let It Be... Naked</em> is simply a far better record than <em>Let It Be</em>.</p>
+
+<p>We are still dealing with the state of affairs that gave Spector his success: shitty equipment. Modern pop records are targeted towards modern equipment which includes poor MP3 compression, earbud headphones and ambient noise. Records as sparse and clean as was common in the early 1970s are not produced today. The producer's toolbox has been upgraded for easy Spector-ization of records with brick-wall limiters and compressors that ensure the loudest sound all the time without distortion. Even the 2009 remastering of the Beatles catalogue suffers from modernized mixing. While much improved over the 1987 mixes found on CDs up 'til now, the sound is fat to the point of obesity. (Collectors looking for the truest sound should seek out the 2006 and 2008 DESS Blue Box series mixes which are digital recordings of original Beatles vinyl LPs played on a very nice turntable.)</p>
+
+<p>Producers call this the Loudness War and a Google search of the term will lead to dozens of stories on the topic containing quotes by artists and producers bewailing the state of affairs <a href="http://www.rollingstone.com/news/story/17777619/the_death_of_high_fidelity/print" title="External link to Rolling Stone Dec 2007">(Robert Levine; <em>The Death of High Fidelity</em>; Rolling Stone Dec. 2007)</a>. The point, though, is that louder is not always better. More sound is not always preferable to less. Hopefully one day the Beatles will be re-remastered properly, and perhaps <em>Let It Be... Naked</em> will be accepted as Beatles canon over <em>Let It Be</em>. Until that long off day, though, save your vinyl. It's the truest mix there is.</p>
+
+<p>And don't let Phil Spector produce your records. No matter how much he begs you to let him.</p>
+
+<p><em>Mike Verdone is a writer, musician, and computer nerd from Calgary. His current projects include the electronic-noise group <a href="http://www.facebook.com/pages/Post-Post-IDM/146486127318?ref=ts/" title="External link to Post Post IDM facebook page">Post Post IDM</a>.</em></p>
+
+<img src="images/break2.gif" alt="Break" title="Break" style="width:600px;height:20px;position:inherit;" />
+
+<div style="text-align:center;">
+<p><a href="index.html">This Week</a><br/>
+<a href="index2.html">Archives</a><br/>
+<a href="allContributors.html">All Contributors</a></p>
+</div>
+
+</div>
+</body>
+</html>
